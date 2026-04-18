@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paul Alfred R. Napiza | IT Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h2 class="logo">Paul<span>Alfred</span></h2>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+        <h1>Hi, I'm <span>Paul Alfred R. Napiza</span></h1>
+        <p>Aspiring IT Developer | IoT & Software Specialist | Fresh Graduate</p>
+        <div class="hero-btns">
+            <a href="#projects" class="btn">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Let's Talk</a>
+        </div>
+    </div>
+  </section>
+
+  <section id="about" class="container">
+    <div class="section-title">
+        <h2>About Me</h2>
+        <div class="underline"></div>
+    </div>
+    <p>
+      I am a fresh graduate with a strong passion for bridging hardware and software. My expertise ranges from web development to low-level programming. During my internship at the <strong>PhilHealth IT Department</strong>, I refined my skills in system support and web technologies. I am now looking to apply my knowledge in <strong>IoT, AI, and Software Development</strong> to build meaningful solutions.
+    </p>
+  </section>
+
+  <section id="skills" class="bg-light">
+    <div class="section-title">
+        <h2>Technical Skills</h2>
+        <div class="underline"></div>
+    </div>
+    <div class="skill-grid">
+      <div class="skill-item">HTML5 / CSS3</div>
+      <div class="skill-item">JavaScript (ES6+)</div>
+      <div class="skill-item">Java</div>
+      <div class="skill-item">C / C++</div>
+      <div class="skill-item">Firebase</div>
+      <div class="skill-item">MySQL</div>
+      <div class="skill-item">IoT (ESP32)</div>
+      <div class="skill-item">AI Integration</div>
+    </div>
+  </section>
+
+  <section id="projects" class="container">
+    <div class="section-title">
+        <h2>Featured Projects</h2>
+        <div class="underline"></div>
+    </div>
+
+    <div class="capstone-showcase">
+        <div class="project-info">
+            <span class="badge">Capstone Project</span>
+            <h3>AirSense: AI-Powered Air Quality Monitor</h3>
+            <p>
+              An IoT system designed for real-time monitoring of air quality. Built with ESP32 sensors and a LightGBM AI model to provide predictive health alerts for users.
+            </p>
+            <div class="tags">
+                <span>IoT</span> <span>Firebase</span> <span>AI</span> <span>Mobile Dev</span>
+            </div>
+        </div>
+
+        <div class="project-media">
+            <div class="phone-mockup">
+                <div class="slider-container">
+                    <div class="slider-wrapper" id="sliderWrapper">
+                        <img src="pic1.png" alt="Screen 1">
+                        <img src="pic2.png" alt="Screen 2">
+                        <img src="pic3.png" alt="Screen 3">
+                        <img src="pic4.png" alt="Screen 4">
+                        <img src="pic5.png" alt="Screen 5">
+                        <img src="pic6.png" alt="Screen 6">
+                        <img src="pic7.png" alt="Screen 7">
+                        <img src="pic8.png" alt="Screen 8">
+                    </div>
+                    <button class="slider-btn prev" id="prevBtn">&#10094;</button>
+                    <button class="slider-btn next" id="nextBtn">&#10095;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-grid">
+        <div class="project-card">
+          <span class="badge">Java / JavaFX</span>
+          <h3>Inventory System</h3>
+          <p>A desktop application developed using Java to manage and track stock levels efficiently.</p>
+          <div class="tags"><span>Java</span> <span>Desktop UI</span></div>
+        </div>
+        <div class="project-card">
+          <span class="badge">C / C++</span>
+          <h3>ATM Simulator</h3>
+          <p>A logic-based console application simulating ATM functions like withdrawal and balance inquiry.</p>
+          <div class="tags"><span>C++</span> <span>Logic</span> <span>OOP</span></div>
+        </div>
+        <div class="project-card">
+          <span class="badge">Full Stack</span>
+          <h3>Student Management</h3>
+          <p>Full-stack CRUD application for managing academic records with MySQL.</p>
+          <div class="tags"><span>MySQL</span> <span>JavaScript</span></div>
+        </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-dark">
+    <h2>Get In Touch</h2>
+    <div class="contact-info">
+        <p>📧 paulalfrednapiza91@email.com</p>
+        <p>📱 09813908676</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Paul Alfred R. Napiza</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
